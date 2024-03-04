@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #444;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    width: 100%; /* Set image width to 100% of its container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 1000px; /* Limit maximum width of the image for better responsiveness */
+    display: block; /* Remove extra space below inline-block images */
+    margin: 0 auto; /* Center the image within its container */
+}

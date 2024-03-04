@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #444;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+/* Add a bit of spacing and center the navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Style for the active page */
+nav .active {
+    background-color: #555;
+}
+
+/* Style for the logout button */
+nav .logout-btn {
+    background-color: #ff3333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+nav .logout-btn:hover {
+    background-color: #e60000;
+}
